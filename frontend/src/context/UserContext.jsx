@@ -3,7 +3,7 @@ import { authDataContext } from './AuthContext.jsx.jsx'
 import axios from 'axios'
 
 export const userDataContext = createContext()
-function UserContext.jsx({children}) {
+function UserContext({children}) {
     let [userData,setUserData] = useState("")
     let {serverUrl} = useContext(authDataContext)
 
