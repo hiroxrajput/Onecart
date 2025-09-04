@@ -1,7 +1,7 @@
 import React, { createContext } from 'react'
 
 export const authDataContext = createContext()
-function AuthContext({children}) {
+function AuthContext.jsx({children}) {
     let serverUrl = "http://localhost:8000"
 
     let value = {
@@ -17,4 +17,4 @@ function AuthContext({children}) {
   )
 }
 
-export default AuthContext
+export default AuthContext.jsx

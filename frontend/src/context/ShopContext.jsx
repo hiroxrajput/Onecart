@@ -1,11 +1,11 @@
 import React, { createContext, useContext, useEffect, useState } from 'react'
-import AuthContext from "./AuthContext.jsx"
+import AuthContext.jsx from "./AuthContext.jsx.jsx"
 import axios from 'axios'
-import { userDataContext } from './UserContext'
+import { userDataContext } from './UserContext.jsx'
 import { toast } from 'react-toastify'
 
  export const shopDataContext = createContext()
-function ShopContext({children}) {
+function ShopContext.jsx({children}) {
 
     let [products,setProducts] = useState([])
     let [search,setSearch] = useState('')
@@ -160,4 +160,4 @@ function ShopContext({children}) {
   )
 }
 
-export default ShopContext
+export default ShopContext.jsx

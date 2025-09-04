@@ -3,15 +3,15 @@ import logo from '../assets/logo.png'
 import { IoSearchCircleOutline } from "react-icons/io5";
 import { FaCircleUser } from "react-icons/fa6";
 import { MdOutlineShoppingCart } from "react-icons/md";
-import { userDataContext } from '../context/UserContext';
+import { userDataContext } from '../context/UserContext.jsx';
 import { IoSearchCircleSharp } from "react-icons/io5";
 import { useNavigate } from 'react-router-dom';
 import { IoMdHome } from "react-icons/io";
 import { HiOutlineCollection } from "react-icons/hi";
 import { MdContacts } from "react-icons/md";
 import axios from 'axios';
-import { authDataContext } from '../context/authContext';
-import { shopDataContext } from '../context/ShopContext';
+import { authDataContext } from '../context/AuthContext.jsx';
+import { shopDataContext } from '../context/ShopContext.jsx';
 function Nav() {
     let {getCurrentUser , userData} = useContext(userDataContext)
     let {serverUrl} = useContext(authDataContext)

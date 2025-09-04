@@ -1,9 +1,9 @@
 import React, { createContext, useContext, useEffect, useState } from 'react'
-import { authDataContext } from './AuthContext.jsx'
+import { authDataContext } from './AuthContext.jsx.jsx'
 import axios from 'axios'
 
 export const userDataContext = createContext()
-function UserContext({children}) {
+function UserContext.jsx({children}) {
     let [userData,setUserData] = useState("")
     let {serverUrl} = useContext(authDataContext)
 
@@ -41,4 +41,4 @@ function UserContext({children}) {
   )
 }
 
-export default UserContext
+export default UserContext.jsx

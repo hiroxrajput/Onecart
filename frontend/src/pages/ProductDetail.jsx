@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { shopDataContext } from '../context/ShopContext'
+import { shopDataContext } from '../context/ShopContext.jsx'
 import { FaStar } from "react-icons/fa";
 import { FaStarHalfAlt } from "react-icons/fa";
 import RelatedProduct from '../component/RelatedProduct';

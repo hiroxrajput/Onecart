@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { shopDataContext } from '../context/ShopContext'
+import { shopDataContext } from '../context/ShopContext.jsx'
 import Title from './Title'
 
 function CartTotal() {

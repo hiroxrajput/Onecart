@@ -3,19 +3,19 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import { BrowserRouter } from 'react-router-dom'
-import AuthContext from './context/AuthContext.jsx'
-import UserContext from './context/UserContext.jsx'
-import ShopContext from './context/ShopContext.jsx'
+import AuthContext.jsx from './context/AuthContext.jsx.jsx'
+import UserContext.jsx from './context/UserContext.jsx.jsx'
+import ShopContext.jsx from './context/ShopContext.jsx.jsx'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-  <AuthContext>
-    <UserContext>
-      <ShopContext>
+  <AuthContext.jsx>
+    <UserContext.jsx>
+      <ShopContext.jsx>
     <App />
-    </ShopContext>
-    </UserContext>
-    </AuthContext>
+    </ShopContext.jsx>
+    </UserContext.jsx>
+    </AuthContext.jsx>
 </BrowserRouter>
   
 )
